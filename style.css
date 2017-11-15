@@ -1,0 +1,142 @@
+
+body{
+
+background-color: #777;
+color: #777;
+
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+#header{
+ 	position: relative;
+  	height: 75px;
+  	padding: 20px;
+  	margin-bottom: 5px;
+  	text-align: center;
+  	background: #eee;
+}
+
+#nav{
+	position: static;
+  	height: 75px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	background: #eee;
+
+}
+
+#aside{
+	position: static;
+  	height: 250px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	background: #eee;
+	width:40%;	
+	float: right;
+}
+
+#section{
+	position: static;
+  	height: 250px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	background: #eee;
+	width:58%;	
+	float: left;
+}
+
+#article{
+	clear:both;
+	position: absolute;
+  	height: 180px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	background: #777;
+	width:30%;	
+	float: left;
+	overflow: auto;
+    margin-left: 75px;
+    margin-top: 60px;
+    color: white;
+	
+}
+
+#h1{
+
+	clear: both;
+    position: absolute;
+    height: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: white;
+    width: 20%;
+    float: left;
+    overflow: hide;
+    margin-left: 125px;
+    margin-top: 125px; 
+}
+
+#p{
+
+	clear: both;
+    position: absolute;
+    height: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: white;
+    width: 20%;
+    float: left;
+    overflow: hide;
+    margin-left: 125px;
+    margin-top: 180px; 
+
+}
+
+#footer{
+	
+	clear:both;
+	position: relative;
+  	height: 75px;
+  	padding: 20px;
+  	margin-bottom: 5px;
+  	text-align: center;
+  	background: #eee;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
